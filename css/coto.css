@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: verdana;
+}
+body{
+	background-color: rgb(227, 0, 28);
+}
+
+header{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-top: 3%;
+	color: #fff;
+	position: relative;
+}
+header .fechas{
+	width: 20%;
+	display: flex;
+	position: absolute;
+	top: 85%;
+	left: 75%;
+	height: auto;
+	color: #000;
+	text-align: center;
+}
+
+header .fechas #fecha1{
+	width: 260px;
+	height: 90px;
+	background-color: white;
+	border: 2px black solid;
+	border-radius: 20%;
+	
+}
+header .fechas #fecha1 h2{
+	font-size: 28px;
+
+}
+header .fechas #fecha2{
+	width: 200px;
+	height: 90px;
+	background-color: white;
+	border: 2px black solid;
+	border-radius: 20%;
+}
+header .fechas #fecha2 h2{
+	font-size: 28px;
+}
+header .fechas h4{
+	background-color: #000;
+	width: 35%;
+	height: 30px;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 1%;
+	margin-top: 12%;
+}
+header img{
+	position: absolute;
+	top: 60%;
+}
+section{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	height: auto;
+	position: relative;
+	color: #fff;
+	padding-top:10%;
+}
+section h1{
+	font-size: 68px;
+}
+section h2{
+	font-size: 36px;
+}
+main{
+	width: 77%;
+	height: 600px;
+	margin: 2% 0 0 10%;
+	background-image: url(../imagenes/mercado.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+main .galeria1{
+	width: 30%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 55%;
+}
+main .galeria1 img{
+	width: 150px;
+	height: 80px;
+	margin-bottom: 20%;
+}
+main .galeria2{
+	width: 30%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 77%;
+	
+}
+main .galeria2 img{
+	width: 150px;
+	height: 80px;
+	margin-bottom: 20%;
+}
+main .precios1{
+	width: 30%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 12%;
+	left: 56%;
+	z-index: 1000;
+}
+main .precios1 h4{
+	width: 60px;
+	height: 25px;
+	margin-bottom: 37%;
+	background-color: #F5E805;
+	color: #000;
+	padding-top: 0;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 18px;
+}
+main .precios2{
+	width: 30%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 12%;
+	left: 78%;
+	z-index: 1000;
+}
+main .precios2 h4{
+	width: 60px;
+	height: 25px;
+	margin-bottom: 37%;
+	background-color: #F5E805;
+	color: #000;
+	padding-top: 0;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 18px;
+}
+main .descripcion{
+	width: 30%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 12%;
+	left: 55%;
+}
+main #descripcion1{
+	font-size: 7px;
+	padding-bottom: 22%;
+	margin-top: 10%;
+}
+main .descripcion2{
+	width: 30%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 11%;
+	left: 77%;
+}
+main .descripcion h1{
+	color: red;
+}
+main .descripcion2 h1{
+	color: red;
+}
+main .descuentos{
+	width: 50px;
+	height: auto;
+	color: #fff;
+	position: absolute;
+	top: 32.5%;
+	left: 56%;
+}
+main .descuentos h1{
+	margin-bottom: 230%;
+	padding-bottom: 10%;
+	background-color: #000;
+	border: 2px ridge black;
+	border-radius: 50%;
+	font-size: 14px;
+}
+main .descuentos1{
+	width: 50px;
+	height: auto;
+	color: #fff;
+	position: absolute;
+	top: 32.5%;
+	left: 78%;
+}
+main .descuentos1 h1{
+	margin-bottom: 230%;
+	padding-bottom: 10%;
+	background-color: #000;
+	border: 2px ridge black;
+	border-radius: 50%;
+	font-size: 14px;
+}
+footer{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	color: #fff;
+}
+footer p{
+	font-size: 11.8px;
+}
